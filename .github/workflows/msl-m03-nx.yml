@@ -13,7 +13,7 @@ jobs:
     runs-on: xenoci-macos
     strategy:
       matrix:
-        k: [1]
+        k: [1, 2]
     timeout-minutes: 10
     steps:
       - name: verify and write
